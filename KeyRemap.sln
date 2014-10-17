@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyRemapDLL", "KeyRemapDLL\KeyRemapDLL.vcxproj", "{C89C02FD-03D1-4075-8DB7-483ED8EF4BD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyRemapChild", "KeyRemapChild\KeyRemapChild.vcxproj", "{7105CFBF-8E25-4B6E-A524-2DFD07C8BF7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C89C02FD-03D1-4075-8DB7-483ED8EF4BD7} = {C89C02FD-03D1-4075-8DB7-483ED8EF4BD7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyRemap", "KeyRemap\KeyRemap.vcxproj", "{BE2B8A24-39AA-474E-9378-458114D20CF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C89C02FD-03D1-4075-8DB7-483ED8EF4BD7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C89C02FD-03D1-4075-8DB7-483ED8EF4BD7}.Debug|Win32.Build.0 = Debug|Win32
+		{C89C02FD-03D1-4075-8DB7-483ED8EF4BD7}.Debug|x64.ActiveCfg = Debug|x64
+		{C89C02FD-03D1-4075-8DB7-483ED8EF4BD7}.Debug|x64.Build.0 = Debug|x64
+		{C89C02FD-03D1-4075-8DB7-483ED8EF4BD7}.Release|Win32.ActiveCfg = Release|Win32
+		{C89C02FD-03D1-4075-8DB7-483ED8EF4BD7}.Release|Win32.Build.0 = Release|Win32
+		{C89C02FD-03D1-4075-8DB7-483ED8EF4BD7}.Release|x64.ActiveCfg = Release|x64
+		{C89C02FD-03D1-4075-8DB7-483ED8EF4BD7}.Release|x64.Build.0 = Release|x64
+		{7105CFBF-8E25-4B6E-A524-2DFD07C8BF7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7105CFBF-8E25-4B6E-A524-2DFD07C8BF7B}.Debug|Win32.Build.0 = Debug|Win32
+		{7105CFBF-8E25-4B6E-A524-2DFD07C8BF7B}.Debug|x64.ActiveCfg = Debug|x64
+		{7105CFBF-8E25-4B6E-A524-2DFD07C8BF7B}.Debug|x64.Build.0 = Debug|x64
+		{7105CFBF-8E25-4B6E-A524-2DFD07C8BF7B}.Release|Win32.ActiveCfg = Release|Win32
+		{7105CFBF-8E25-4B6E-A524-2DFD07C8BF7B}.Release|Win32.Build.0 = Release|Win32
+		{7105CFBF-8E25-4B6E-A524-2DFD07C8BF7B}.Release|x64.ActiveCfg = Release|x64
+		{7105CFBF-8E25-4B6E-A524-2DFD07C8BF7B}.Release|x64.Build.0 = Release|x64
+		{BE2B8A24-39AA-474E-9378-458114D20CF4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BE2B8A24-39AA-474E-9378-458114D20CF4}.Debug|Win32.Build.0 = Debug|Win32
+		{BE2B8A24-39AA-474E-9378-458114D20CF4}.Debug|x64.ActiveCfg = Debug|x64
+		{BE2B8A24-39AA-474E-9378-458114D20CF4}.Debug|x64.Build.0 = Debug|x64
+		{BE2B8A24-39AA-474E-9378-458114D20CF4}.Release|Win32.ActiveCfg = Release|Win32
+		{BE2B8A24-39AA-474E-9378-458114D20CF4}.Release|Win32.Build.0 = Release|Win32
+		{BE2B8A24-39AA-474E-9378-458114D20CF4}.Release|x64.ActiveCfg = Release|x64
+		{BE2B8A24-39AA-474E-9378-458114D20CF4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
